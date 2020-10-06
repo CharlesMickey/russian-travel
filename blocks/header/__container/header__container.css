@@ -1,0 +1,24 @@
+.header__container{
+  max-width: 1184px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1290px){
+  .header__container{
+    margin: 0 48px;
+  }
+}
+
+@media screen and (max-width: 720px){
+  .header__container{
+    margin: 0 24px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .header{
+    margin: 0 16px;
+  }
+}

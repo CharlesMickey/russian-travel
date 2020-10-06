@@ -1,0 +1,26 @@
+.lead__container{
+  max-width: 984px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1280px){
+  .lead__container{
+    margin: 0 148px;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .lead__container{
+    margin: 0 48px;
+  }
+}
+
+@media screen and (max-width: 945px){
+  .lead__container{
+    margin: 0;
+  }
+}
