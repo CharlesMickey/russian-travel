@@ -1,3 +1,21 @@
 .content{
   padding: 56px 0 92px;
 }
+
+@media screen and (max-width: 1024px){
+  .content{
+    padding-top: 48px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .content{
+    padding-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .content{
+    padding-bottom: 64px;
+  }
+}

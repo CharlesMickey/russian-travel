@@ -1,0 +1,9 @@
+.footer_section{
+margin: 0 auto;
+}
+
+@media screen and (max-width: 690px){
+  .footer_section{
+    margin: 0  auto 0 16px;
+  }
+}
