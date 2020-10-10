@@ -1,4 +1,5 @@
-.lead__caption{
+.lead__caption {
+text-align: left;
 font-size: 10px;
 line-height: 1.4;
 letter-spacing: 0.15em;
@@ -7,14 +8,20 @@ max-width: 159px;
 margin: 8px auto 0 0;
 }
 
-@media screen and (max-width: 945px){
-  .lead__caption{
+@media screen and (max-width: 1280px) {
+  .lead__caption {
+    margin-left: calc(100vh-984px)/2;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .lead__caption {
     margin-left: 24px;
   }
 }
 
-@media screen and (max-width: 360px){
-  .lead__caption{
+@media screen and (max-width: 360px) {
+  .lead__caption {
     margin-left: 16px;
   }
 }

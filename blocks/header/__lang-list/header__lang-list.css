@@ -1,7 +1,8 @@
 
-.header__lang-list{
+.header__lang-list {
   margin-right: 18px;
 }
-.header__lang-list:last-child{
+
+.header__lang-list:last-child {
   margin-right: 0;
 }

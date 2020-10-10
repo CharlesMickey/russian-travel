@@ -1,5 +1,14 @@
-.lead{
- display: flex;
- justify-content: center;
+.lead {
  color: #fff;
+ max-width: 984px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+ .lead {
+   max-width: 928px;
+ }
 }

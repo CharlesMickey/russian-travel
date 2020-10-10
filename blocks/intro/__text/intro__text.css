@@ -1,5 +1,12 @@
-.intro__text{
-font-size: 16px;
-line-height: 163%;
-margin: 0 auto 32px 0;
+.intro__text {
+  max-width: 690px;
+  font-size: 16px;
+  line-height: 1.63;
+  margin: 0 auto 32px 0;
+}
+
+@media screen and (max-width: 930px) {
+  .intro__text {
+    max-width: 720px;
+  }
 }

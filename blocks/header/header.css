@@ -1,9 +1,9 @@
-.header{
+.header {
   padding-top: 28px;
 }
 
-@media screen and (max-width: 425px){
-  .header{
+@media screen and (max-width: 425px) {
+  .header {
     padding-top: 16px;
   }
 }

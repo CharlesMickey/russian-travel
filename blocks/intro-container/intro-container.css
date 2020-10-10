@@ -1,24 +1,23 @@
-.intro__container{
-  max-width: 690px;
+.intro-container {
   display: flex;
   flex-direction: column;
-  margin: 92px 0;
+  margin: 92px auto;
 }
 
-
 @media screen and (max-width: 1024px) {
-  .intro__container{
-  margin-left: 48px;
+  .intro-container {
+    margin-left: calc(100vw-928px)/2;
   }
 }
 
-@media screen and (max-width: 768px) {
-  .intro__container{
+@media screen and (max-width: 930px) {
+  .intro-container {
     margin: 88px 24px;
   }
 }
+
 @media screen and (max-width: 425px) {
-  .intro__container{
+  .intro-container {
     margin: 64px 16px;
   }
 }

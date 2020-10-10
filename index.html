@@ -8,29 +8,24 @@
   </head>
   <body>
     <div class="page">
-      <header class="header">
-        <div class="header__container">
+      <header class="header header-container">
           <img class="header__logo" src="./images/header-logo.svg" alt="Логотип в форме карты России">
           <ul class="header__lang-links">
             <li class="header__lang-list"><a class="header__lang-link  header__lang-link_underline" href="#" target="_blank" rel="noopener">Ru</a></li>
             <li class="header__lang-list"><a class="header__lang-link" href="#" target="_blank" rel="noopener">En</a></li>
           </ul>
-        </div>
       </header>
 <!--Main-->
       <main class="content content-section">
 <!--Block lead-->
-        <section class="lead">
-          <div class="lead__container">
+        <section class="lead content-section">
             <h1 class="lead__title">Путешествия по России</h1>
             <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
             <img class="lead__image" src="./images/lead-polka.jpeg" alt="Фотография с картой маршрута">
             <p class="lead__caption">ваша полка — верхняя</p>
-          </div>
         </section>
 <!--Block intro-->
-        <section class="intro content-section">
-          <div class="intro__container">
+        <section class="intro intro-container">
            <h2 class="intro__title">Чего мы там не&nbsp;видели?</h2>
            <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36%
               планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле,
@@ -41,13 +36,12 @@
               Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.
             </p>
             <ul class="intro__list">
-              <li><p class="intro__list-text">Часовых поясов 11</p></li>
-              <li><p class="intro__list-text">Объектов природного наследия ЮНЕСКО 12</p></li>
-              <li><p class="intro__list-text">Объектов культурного наследия ЮНЕСКО 16</p></li>
-              <li><p class="intro__list-text">Природных заповедников 105</p></li>
-              <li><p class="intro__list-text">Аэропортов 241</p></li>
+              <li><p class="intro__list-text">Часовых поясов <span class="intro__list-text-normal">11</span></p></li>
+              <li><p class="intro__list-text">Объектов природного наследия ЮНЕСКО <span class="intro__list-text-normal">12</span></p></li>
+              <li><p class="intro__list-text">Объектов культурного наследия ЮНЕСКО <span class="intro__list-text-normal">16</span></p></li>
+              <li><p class="intro__list-text">Природных заповедников <span class="intro__list-text-normal">105</span></p></li>
+              <li><p class="intro__list-text">Аэропортов <span class="intro__list-text-normal">241</span></p></li>
             </ul>
-          </div>
         </section>
 <!--Block photo-grid-->
         <section class="photo-grid" aria-label="Фотографии">
@@ -65,7 +59,8 @@
             <img class="photo-grid__item" src="./images/photo-grid-ergaki.jpg" alt="Вершины гор в густом тумане">
         </section>
 <!--Block places-->
-        <ul class="places">
+        <section class="places">
+        <ul class="places__list">
           <li class="place">
             <h2 class="place__title">Куршская коса</h2>
             <img class="place__image" src="./images/place-kosa.jpg" alt="Куршская коса, небо отражается в воде">
@@ -150,6 +145,7 @@
             </p>
           </li>
         </ul>
+        </section>
 <!--Block cover-->
         <section class="cover content-section">
           <a class="cover__overlay" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" rel="noopener">
@@ -179,7 +175,7 @@
               </li>
             </ul>
         </nav>
-        <p class="footer__copyright">&#169; 2020. Артур Чухненко</p>
+        <p class="footer__copyright">&copy; 2020. Артур Чухненко</p>
       </footer>
     </div>
   </body>

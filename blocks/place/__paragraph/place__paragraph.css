@@ -1,24 +1,23 @@
-.place__paragraph{
+.place__paragraph {
   grid-area: paragraph;
   margin: 24px auto 0;
   font-weight: normal;
-font-size: 18px;
-line-height: 1.62;
+  font-size: 18px;
+  line-height: 1.63;
 }
 
-.place__paragraph:first-of-type{
+.place__paragraph:first-of-type {
   margin-top: 0;
 }
 
-@media screen and (max-width: 915px){
-  .place__paragraph{
+@media screen and (max-width: 915px) {
+  .place__paragraph {
     font-size: 16px;
   }
 }
 
-
-@media screen and (max-width: 630px){
-  .place__paragraph{
+@media screen and (max-width: 650px) {
+  .place__paragraph {
     padding: 0 16px;
   }
 }

@@ -1,22 +1,18 @@
-.places{
+.places {
   display: grid;
   color: #fff;
-  list-style-type: none;
   padding: 0 0 92px;
-  margin: 0;
 }
 
 
-@media screen and (max-width: 768px){
-  .places{
+@media screen and (max-width: 768px) {
+  .places {
     padding-bottom: 88px;
-
   }
 }
 
-@media screen and (max-width: 425px){
-  .places{
+@media screen and (max-width: 425px) {
+  .places {
     padding-bottom: 64px;
-
   }
 }
