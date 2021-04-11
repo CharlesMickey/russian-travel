@@ -7,7 +7,6 @@
 * `Flexbox`
 * `Grid Layout`
 * `Transition`
-* `Grid Layout`
 * `Calc`
 * `Адаптивная верстка`
 
